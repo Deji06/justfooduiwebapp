@@ -14,14 +14,23 @@
   }
 }
 
-body {
+.adBackground {
+  background: linear-gradient(45deg, #357355 100%, #1D483B 100%);
+}
+
+.adText {
+  background: linear-gradient(#ffffff 60%, #feb47b 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+/* body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
-
+} */
+/* 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */

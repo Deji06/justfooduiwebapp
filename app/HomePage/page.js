@@ -64,18 +64,18 @@ const Home = () => {
               <p className="font-semibold text-[18px] sm:text-[64px]">
                 Spicy delicious chicken wings
               </p>
-              <p className="mt-5 text-[12px] sm:text-[16px]">
+              <p className="mt-5 text-[12px] sm:text-[16px] text-[#8392A7]">
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
                 minim{" "}
               </p>
 
               <div className="flex sm:flex-row flex-col gap-y-2 items-center gap-x-5 mt-2">
-                <div className="flex items-center gap-x-2 border bg-[#f3f3f3] rounded-[10px] px-3 py-1 ">
+                <div className="flex items-center gap-x-2 border bg-[#DCE3ED] rounded-[10px] px-3 py-1 ">
                   <Image src={grenade} alt="bomb" />
                   <p>30 Minutes</p>
                 </div>
-                <div className="flex items-center gap-x-2 border bg-[#f3f3f3] rounded-[10px] px-3 py-1">
+                <div className="flex items-center gap-x-2 border bg-[#DCE3ED] rounded-[10px] px-3 py-1">
                   <Image src={forkKnife} alt="fork and knife" />
                   <p>Chicken</p>
                 </div>
@@ -86,7 +86,7 @@ const Home = () => {
                   <Image src={avatar} alt="profile" />
                   <div className="flex flex-col gap-y-2">
                     <p className="text-[14px] font-bold">John Smith</p>
-                    <p className="text-[14px] font-medium">15 March 2022</p>
+                    <p className="text-[14px] font-medium text-[#8392A7]">15 March 2022</p>
                   </div>
                 </div>
                 <button className="flex items-center py-3 sm:py-0 px-3 border gap-x-3 rounded-[10px] bg-black">
@@ -139,7 +139,7 @@ const Home = () => {
 {/* second section */}
         <section className="px-3 sm:w-[1280px] my-12 sm:mx-auto">
           <p className="sm:text-[44px] text-[22px] font-semibold text-center">Simple and tasty recipes</p>
-          <h3 className="text-center py-2">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut <br /> 
+          <h3 className="text-center py-2 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut <br /> 
             labore et dolore magna aliqut enim ad minim 
           </h3>
           <div className="grid sm:grid-cols-3 gap-x-36  gap-y-6 px-4 pt-10">
@@ -285,7 +285,7 @@ const Home = () => {
         <section className="sm:px-3 sm:w-[1280px] my-16 mx-auto flex sm:flex-row flex-col items-center justify-between">
           <div>
             <p className="sm:text-[44px] font-semibold ">Everyone can be a <br /> chef in their own kitchen</p>
-            <p className="w-[508px] py-3">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+            <p className="w-[508px] py-3 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
             <button className="mt-8 px-8 rounded-[10px] py-3  bg-black text-white text-[12px]">Learn More</button>
           </div>
           <div className="relative">
@@ -299,7 +299,7 @@ const Home = () => {
 
         <section className="px-3 sm:w-[1280px] my-16 mx-auto pb-10">
           <p className="text-[44px] font-semibold text-center">Check out @foodieland on Instagram</p>
-          <p className="text-center py-2">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <br /> magna aliqut enim ad minim </p>
+          <p className="text-center py-2 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <br /> magna aliqut enim ad minim </p>
           <div className="flex sm:flex-row flex-col gap-y-3 justify-between mt-8">
             <Image src={post} />
             <Image src={post2} />
@@ -442,7 +442,7 @@ const Home = () => {
           <div className="flex flex-col  w-[600px] mx-auto">
             <div>
               <p className="sm:text-[40px] font-semibold text-center">Deliciousness to your inbox</p>
-              <p className="text-center w-[600px] mx-auto py-2">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+              <p className="text-center w-[600px] mx-auto py-2 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
             </div>
             <form className="flex gap-x-10 mx-auto bg-white py-2 my-5 rounded-[10px] px-4 items-center">
               <input className="border-none bg-none outline-none text-[14px]" type="email"  placeholder="Your email address..."/>
