@@ -15,7 +15,21 @@
 }
 
 .adBackground {
-  background: linear-gradient(45deg, #357355 100%, #1D483B 100%);
+  background: linear-gradient(#357355 0%, #1D483B 100%);
+}
+
+.vegan {
+  background: linear-gradient( #6CC63F 0%, #6CC63F 10%);
+}
+
+.meat {
+  background: linear-gradient( #CC261B 0%, #CC261B 10%);
+
+}
+
+.recipebg {
+  background: linear-gradient( #E7F9FD 0%, #E7F9FD 100%);
+
 }
 
 .adText {

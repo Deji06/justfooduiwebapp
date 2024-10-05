@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { Inter, Lobster } from '@next/font/google'
+import {Lobster } from 'next/font/google'
 import facebook from '@/assets/facebookIcon.jpg'
 import twitter from '@/assets/twitter.jpg'
 import instagram from '@/assets/instagram.jpg'

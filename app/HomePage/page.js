@@ -43,9 +43,12 @@ import img8 from "@/assets/image 26 (7).png"
 import img9 from "@/assets/image 26 (8).png"
 import img10 from "@/assets/rucola-png.png"
 import img11 from "@/assets/photo-plate.png"
+import {Lobster } from 'next/font/google'
+import adFoodImage from "@/assets/adFoodImage.png";
+import star from "@/assets/star 1.png";
 
 
-
+const lobster = Lobster({ subsets: ["latin"], weight: "400" });
 
 const Home = () => {
   return (
@@ -114,11 +117,11 @@ const Home = () => {
               <Image className="sm:w-[100px] w-[80px]" src={breakfast} />
               <p className="font-semibold sm:text-[16px] text-[12px] text-center">breakfast</p>
             </div>
-            <div className="flex flex-col gap-y-3 bg-green-300 rounded-[10px]">
+            <div className="flex flex-col gap-y-3 vegan rounded-[10px]">
               <Image src={vegan} className="sm:w-[100px] w-[80px]" />
               <p className="font-semibold text-[16px] px-4">vegan</p>
             </div>
-            <div className="flex flex-col gap-y-3 bg-green-300 rounded-[10px]">
+            <div className="flex flex-col gap-y-3 meat rounded-[10px]">
               <Image className="sm:w-[100px] w-[80px]" src={meat} />
               <p className="font-semibold text-[16px] px-4">meat</p>
             </div>
@@ -143,9 +146,9 @@ const Home = () => {
             labore et dolore magna aliqut enim ad minim 
           </h3>
           <div className="grid sm:grid-cols-3 gap-x-36  gap-y-6 px-4 pt-10">
-            <div className="w-[250px] rounded-[10px] px-2 relative">
+            <div className="w-[250px] rounded-[10px] px-2 relative recipebg">
               <Image className="mx-auto my-2 rounded-[10px]" src={hamburger} alt="hamburger"/>
-              <Image className="absolute top-5 right-7 bg-white rounded-[50%] w-[26px] pt-1 " src={heart} alt="heart shape" />
+              <Image className="absolute top-5 right-7 rounded-[50%] w-[26px] pt-1 " src={heart} alt="heart shape" />
               <p className="font-semibold text-[15px] text-left py-4">Big and Juicy Wagyu Beef Cheeseburger</p>
               <div className="flex gap-x-5 pb-4">
                 <div className="flex items-center gap-x-2">
@@ -158,9 +161,9 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[250px] rounded-[10px] px-2 relative">
+            <div className="w-[250px] rounded-[10px] recipebg px-2 relative">
               <Image className="mx-auto my-2 rounded-[10px]" src={leaf} alt="hamburger"/>
-              <Image className="absolute top-5 right-7 border bg-white rounded-[50%] " src={whiteHeart} alt="heart shape" />
+              <Image className="absolute top-5 right-7 border rounded-[50%] " src={whiteHeart} alt="heart shape" />
               <p className="font-semibold text-[15px] text-left  py-4">Fresh Lime Roasted Salmon with Ginger Sauce</p>
               <div className="flex gap-x-5">
                 <div className="flex items-center gap-x-2">
@@ -173,7 +176,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[250px] rounded-[10px] px-2 relative">
+            <div className="w-[250px] rounded-[10px] recipebg px-2 relative">
               <Image className="mx-auto my-2 rounded-[10px]" src={pancake} alt="hamburger"/>
               <Image className="absolute top-5 right-7 border bg-white rounded-[50%]  " src={whiteHeart} alt="heart shape" />
               <p className="font-semibold text-[15px] text-left  py-4">Strawberry Oatmeal Pancake with Honey Syrup</p>
@@ -188,7 +191,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[250px] rounded-[10px] px-2 relative">
+            <div className="w-[250px] rounded-[10px] recipebg px-2 relative">
               <Image className="mx-auto my-2 rounded-[10px]" src={salad} alt="hamburger"/>
               <Image className="absolute top-5 right-7 border bg-white rounded-[50%] w-[26px] pt-1 " src={heart} alt="heart shape" />
               <p className="font-semibold text-[15px] text-left py-4">Fresh and Healthy Mixed Mayonnaise Saladr</p>
@@ -203,7 +206,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[250px] rounded-[10px] px-2 relative">
+            <div className="w-[250px] rounded-[10px] recipebg px-2 relative">
               <Image className="mx-auto my-2 rounded-[10px]" src={creamCheese} alt="hamburger"/>
               <Image className="absolute top-5 right-7 border bg-white rounded-[50%]" src={whiteHeart} alt="heart shape" />
               <p className="font-semibold text-[15px] text-left px- py-4">Chicken Meatballs with Cream Cheese</p>
@@ -219,22 +222,22 @@ const Home = () => {
               </div>
             </div>
             {/* speacial ads */}
-            <div className="w-[250px] rounded-[10px] px-2 relative">
-              <Image className="mx-auto my-2 rounded-[10px]" src={hamburger} alt="hamburger"/>
-              <Image className="absolute top-5 right-7 border bg-white rounded-[50%] w-[26px] pt-1" src={heart} alt="heart shape" />
-              <p className="font-semibold text-[15px] text-left px- py-4">Big and Juicy Wagyu Beef Cheeseburger</p>
-              <div className="flex gap-x-5">
-                <div className="flex items-center gap-x-2">
-                  <Image src={grenade} alt="bomb" />
-                  <p className="text-[14px] font-medium">30 Minutes</p>
-                </div>
-                <div className="flex items-center gap-x-1 ">
-                  <Image src={forkKnife} alt="fork and knife" />
-                  <p className="text-[14px] font-medium">Snack</p>
-                </div>
-              </div>
+            <div className="adBackground relative w-[250px] h-[300px] ">
+              <p
+                className={`${lobster.className} text-white text-center mt-4 text-[20px]`}
+              >
+                Don’t forget to eat <br /> healthy food
+              </p>
+              <Image src={adFoodImage} className="absolute z-10 top-18 left-" />
+              <Image
+                src={star}
+                className=" star absolute top-[16px] left- z-5 w-[450px]"
+              />
+              <p className="adText text-center text-[14px] absolute bottom-3 left-16">
+                www.foodieland.com
+              </p>
             </div>
-            <div className="w-[250px] rounded-[10px] px-2 relative">
+            <div className="w-[250px] rounded-[10px] recipebg px-2 relative">
               <Image className="mx-auto my-2 rounded-[10px]" src={blueBerry} alt="hamburger"/>
               <Image className="absolute top-5 right-7 border bg-white rounded-[50%] w-[26px] pt-1 " src={heart} alt="heart shape" />
               <p className="font-semibold text-[15px] text-left px- py-4">Fruity Pancake with Orange & Blueberry</p>
@@ -249,7 +252,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[250px] rounded-[10px] px-2 relative">
+            <div className="w-[250px] rounded-[10px] recipebg px-2 relative">
               <Image className="mx-auto my-2 rounded-[10px]" src={rice} alt="hamburger"/>
               <Image className="absolute top-5 right-7 border bg-white rounded-[50%]" src={whiteHeart} alt="heart shape" />
               <p className="font-semibold text-[15px] text-left px- py-4">The Best Easy One Pot Chicken and Rice</p>
@@ -264,7 +267,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className= "w-[250px] rounded-[10px] px-2 relative">
+            <div className= "w-[250px] rounded-[10px] recipebg px-2 relative">
               <Image className="mx-auto my-2 rounded-[10px]" src={baconPasta} alt="hamburger"/>
               <Image className="absolute top-5 right-7 border bg-white rounded-[50%]" src={whiteHeart} alt="heart shape" />
               <p className="font-semibold text-[15px] text-left px- py-4">The Creamiest Creamy Chicken and Bacon Pasta Noodles</p>
@@ -288,7 +291,7 @@ const Home = () => {
             <p className="w-[508px] py-3 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
             <button className="mt-8 px-8 rounded-[10px] py-3  bg-black text-white text-[12px]">Learn More</button>
           </div>
-          <div className="relative">
+          <div className="relative ">
             <Image className="w-[500px]" src={chef} alt="happy chef" />
             <Image className="absolute top-16 left-16 w-[70px]" src={meat} />
             <Image className="absolute top-28 w-[60px] right-0" src={vegan} alt="lettuce" />
@@ -297,10 +300,10 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="px-3 sm:w-[1280px] my-16 mx-auto pb-10">
+        <section className="px-3 sm:w-[1280px] my-16 mx-auto pb-10 recipebg">
           <p className="text-[44px] font-semibold text-center">Check out @foodieland on Instagram</p>
           <p className="text-center py-2 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <br /> magna aliqut enim ad minim </p>
-          <div className="flex sm:flex-row flex-col gap-y-3 justify-between mt-8">
+          <div className="flex sm:flex-row flex-col gap-y-3 justify-between  mt-8">
             <Image src={post} />
             <Image src={post2} />
             <Image src={post3} />

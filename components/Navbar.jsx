@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import Image from 'next/image'
-import { Inter, Lobster } from '@next/font/google'
+import { Inter, Lobster } from 'next/font/google'
 import facebook from '@/assets/facebookIcon.jpg'
 import twitter from '@/assets/twitter.jpg'
 import instagram from '@/assets/instagram.jpg'
@@ -20,7 +20,7 @@ const links = [
 
 const Navbar = () => {
     const[openTab, setOpenTab] = useState(false)
-    
+
   return (
     <nav className='flex justify-between items-center px-2 sm:px-10 py-3'>
         <Link href={'/HomePage'} className={`${lobster.className} font-bold text-[24px]`}>Foodieland<span className='text-red-800'>.</span></Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 )
             })}
         </div>
-        <div className='flex items-center gap-x-3'>
+        <div className='flex items-center gap-x-3 mr-4'>
             <Image className='w-[8px]' src={facebook} alt="facebook" />
             <Image className='w-[16px]' src={twitter} alt="twitter" />
             <Image className='w-[16px]' src={instagram} alt="instagram"/>
