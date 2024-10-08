@@ -31,10 +31,10 @@ const Blog = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore
         </p>
-        <div className="flex flex-col  w-[600px] mx-auto">
-          <form className="flex gap-x-10 mx-auto border bg-white py-2 my-5 rounded-[10px] px-4 items-center">
+        <div className="flex flex-col sm:w-[600px] sm:mx-auto">
+          <form className="flex gap-x-10 mx-auto border bg-white py-2 my-5 rounded-[10px] sm:px-4 px-1 items-center">
             <input
-              className="border-none bg-none outline-none text-[14px] w-[300px]"
+              className="border-none bg-none outline-none text-[14px] sm:w-[300px]"
               type="email"
               placeholder="Search article, news or recipe..."
             />
@@ -47,10 +47,10 @@ const Blog = () => {
           </form>
         </div>
       </div>
-      <div className="flex justify-between  mt-10">
-        <div className="w-[60%] flex flex-col gap-y-5">
+      <div className="flex flex-col sm:flex-row justify-between mt-10">
+        <div className="sm:w-[60%] px-3 flex flex-col gap-y-5 py-2">
           {/* left */}
-          <div className="flex gap-x-5">
+          <div className="flex flex-col sm:flex-row gap-x-5">
             <Image src={img} alt="" className="rounded-[10px]" />
             <div className="space-y-3 py-3">
               <p className="font-bold text-[20px]">
@@ -60,7 +60,7 @@ const Blog = () => {
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
-              <div className="flex gap-x-5 items-center py-4">
+              <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
                 <Image src={avatar} />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
@@ -68,7 +68,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-x-5">
+          <div className="flex flex-col sm:flex-row gap-x-5">
             <Image src={img1} alt="" className="rounded-[10px]" />
             <div className="space-y-3 py-3">
               <p className="font-bold text-[20px]">
@@ -78,7 +78,7 @@ const Blog = () => {
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
-              <div className="flex gap-x-5 items-center py-4">
+              <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
                 <Image src={avatar} />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
@@ -86,7 +86,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-x-5">
+          <div className="flex flex-col sm:flex-row gap-x-5">
             <Image src={img2} alt="" className="rounded-[10px]" />
             <div className="space-y-3 py-3">
               <p className="font-bold text-[20px]">
@@ -96,7 +96,7 @@ const Blog = () => {
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
-              <div className="flex gap-x-5 items-center py-4">
+              <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
                 <Image src={avatar} />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
@@ -104,7 +104,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-x-5">
+          <div className="flex flex-col sm:flex-row gap-x-5">
             <Image src={img3} alt="" className="rounded-[10px]" />
             <div className="space-y-3 py-3">
               <p className="font-bold text-[20px]">
@@ -114,7 +114,7 @@ const Blog = () => {
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
-              <div className="flex gap-x-5 items-center py-4">
+              <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
                 <Image src={avatar} />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
@@ -122,7 +122,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-x-5">
+          <div className="flex flex-col sm:flex-row gap-x-5">
             <Image src={img4} alt="" className="rounded-[10px]" />
             <div className="space-y-3 py-3">
               <p className="font-bold text-[20px]">
@@ -132,7 +132,7 @@ const Blog = () => {
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
-              <div className="flex gap-x-5 items-center py-4">
+              <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
                 <Image src={avatar} />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
@@ -140,7 +140,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="flex gap-x-5">
+          <div className="flex flex-col sm:flex-row gap-x-5">
             <Image src={img5} alt="" className="rounded-[10px]" />
             <div className="space-y-3 py-3">
               <p className="font-bold text-[20px]">
@@ -150,7 +150,7 @@ const Blog = () => {
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
-              <div className="flex gap-x-5 items-center py-4">
+              <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
                 <Image src={avatar} />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
@@ -160,7 +160,7 @@ const Blog = () => {
           </div>
         </div>
         {/* right */}
-        <div className="flex flex-col gap-y-12">
+        <div className="flex flex-col gap-y-12 px-2 sm:px-0">
           <div className="flex flex-col gap-y-2">
             <p className="font-semibold text-[30px]">Tasty Recipes</p>
             <div className="flex items-center gap-x-3 mt-5">
@@ -209,7 +209,7 @@ const Blog = () => {
         </div>
       </div>
       {/*  */}
-      <div className="mt-10 flex gap-x-3 items-center justify-center">
+      <div className="mt-10 flex sm:gap-x-3 gap-x-2 items-center justify-center">
         <button className="bg-black rounded-[10px] px-4 py-2">
           <p className="text-white">1</p>
         </button>
@@ -233,19 +233,19 @@ const Blog = () => {
         </button>
       </div>
       {/*  */}
-      <div className="px-3 sm:w-[1280px] mt-10 mx-auto py-12 pb-10 rounded-[40px] bg-[#E7F9FD] relative">
-        <div className="flex flex-col  w-[600px] mx-auto">
+      <div className="px-3 sm:w-[1280px] mt-10 mx-auto sm:py-12 py-6 pb-10 rounded-[40px] bg-[#E7F9FD] relative">
+        <div className="flex flex-col  sm:w-[600px] mx-auto">
           <div>
-            <p className="sm:text-[40px] font-semibold text-center">
+            <p className="sm:text-[40px] text-[20px] font-semibold text-center">
               Deliciousness to your inbox
             </p>
-            <p className="text-center w-[600px] mx-auto py-2 text-[#8392A7]">
+            <p className="text-center sm:w-[600px] mx-auto py-2 text-[#8392A7]">
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
               minim{" "}
             </p>
           </div>
-          <form className="flex gap-x-10 mx-auto bg-white py-2 my-5 rounded-[10px] px-4 items-center">
+          <form className="flex sm:gap-x-10 mx-auto bg-white py-2 my-5 rounded-[10px] sm:px-4 items-center">
             <input
               className="border-none bg-none outline-none text-[14px]"
               type="email"
@@ -259,9 +259,9 @@ const Blog = () => {
             </button>
           </form>
         </div>
-        <Image className="absolute w-[250px] left-0 bottom-2" src={img9} />
-        <Image className="absolute top-[130px] right-[320px] " src={img10} />
-        <Image className="absolute bottom-0 w-[200px] right-0" src={img11} />
+        <Image className="absolute sm:w-[250px] w-[100px] left-0 bottom-2" src={img9} />
+        <Image className="absolute sm:top-[130px] top-[100px] sm:right-[320px] right-0 w-[100px]  " src={img10} />
+        <Image className="absolute bottom-0 sm:w-[200px] right-0 w-[80px]" src={img11} />
       </div>
     </section>
   );

@@ -17,9 +17,9 @@ const links = [
 
 const Footer = () => {
   return (
-    <div className="pb-10">
-        <div className='flex justify-between  px-10 py-3'>
-            <div className='flex flex-col gap-y-2'>
+    <div className="pb-10 border border-blue-90">
+        <div className='flex sm:flex-row flex-col  gap-y-4 justify-between sm:px-10 px-3 py-3'>
+            <div className='flex sm:flex-col gap-y-2 gap-x-2'>
              <Link href={'/HomePage'} className={`${lobster.className} font-bold text-[24px]`}>Foodieland<span className='text-red-800'>.</span></Link>
              <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
             </div>
@@ -33,10 +33,10 @@ const Footer = () => {
                 })}
             </div>
         </div>
-        <div className="border border-[#f3f3f3] mt-1 w-[1280px] ml-10"></div>
-        <div className='flex justify-center items-center gap-x-32 mt-5'>
-            <p className=''>© 2020 Flowbase. Powered by Webflow</p>
-            <div className='flex items-center gap-x-4  '>
+        <div className="border border-[#f3f3f3] mt-1 sm:w-[1280px] px-2 sm:px-0 sm:ml-10"></div>
+        <div className='flex justify-center items-center gap-x-10 sm:gap-x-32 mt-5'>
+            <p className='ml-2'>© 2020 Flowbase. Powered by Webflow</p>
+            <div className='flex items-center sm:gap-x-4 gap-x-2 sm:mr-0  '>
                 <Image className='w-[8px]' src={facebook} alt="facebook" />
                 <Image className='w-[16px]' src={twitter} alt="twitter" />
                 <Image className='w-[16px]' src={instagram} alt="instagram"/>

@@ -54,12 +54,12 @@ const Home = () => {
   return (
     <>
     {/* main container */}
-     <div className="pb-2">
-      <div className="flex justify-evenly gap-x-6 mt-3 w-[80%] sm:w-[100%]">
+     <div className="pb-2  w-[350px] sm:w-fit mx-auto">
+      <div className="flex justify-evenly sm:mx-0 mx-auto gap-x-6 mt-3 w-[100%] sm:w-[100%]">
           <Image className="h-[510px] hidden sm:block" src={rectangle} alt="" />
-          <div className=" flex justify-between rounded-[600px]">
+          <div className=" flex flex-col-reverse sm:flex-row justify-between rounded-[600px] w-[100%]">
             {/* left */}
-            <div className="py-10 sm:px-6 w-[50%] h-[510px] bg-[#E7FAFE]">
+            <div className="py-10 sm:px-6 sm:h-[510px]  bg-[#E7FAFE] px-3 ">
               <div className="flex gap-x-2 items-center w-[150px] bg-white rounded-[8px] py-2 px-4">
                 <Image className="w-[15px]" src={brown} />
                 <p className="font-semibold text-[14px]">Hot Recipes</p>
@@ -73,7 +73,7 @@ const Home = () => {
                 minim{" "}
               </p>
 
-              <div className="flex sm:flex-row flex-col gap-y-2 items-center gap-x-5 mt-2">
+              <div className="flex sm:flex-row  gap-y-3 items-center gap-x-5 mt-4">
                 <div className="flex items-center gap-x-2 border bg-[#DCE3ED] rounded-[10px] px-3 py-1 ">
                   <Image src={grenade} alt="bomb" />
                   <p>30 Minutes</p>
@@ -84,7 +84,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-y-4 justify-between mt-14">
+              <div className="flex flex-col sm:flex-row gap-y-6 justify-between mt-14">
                 <div className="flex items-center gap-x-3">
                   <Image src={avatar} alt="profile" />
                   <div className="flex flex-col gap-y-2">
@@ -92,7 +92,7 @@ const Home = () => {
                     <p className="text-[14px] font-medium text-[#8392A7]">15 March 2022</p>
                   </div>
                 </div>
-                <button className="flex items-center py-3 sm:py-0 px-3 border gap-x-3 rounded-[10px] bg-black">
+                <button className="flex items-center py-3  sm:py-0 px-3 w-[200px] border gap-x-3 rounded-[10px] bg-black">
                   <p className="text-[#fff]">View Recipes</p>
                   <Image src={videoPlayerIcon} />
                 </button>
@@ -100,19 +100,19 @@ const Home = () => {
             </div>
 
             {/* right */}
-            <div className="w-[50%]">
+            <div className="">
               <Image className="h-[510px] " src={chickenDish} />
             </div>
           </div>
           <Image className="h-[510px] hidden sm:block" src={rectangle2} alt="" />
         </div>
 
-        <section className="mt-12 sm:w-[1280px] w-[400px] mx-2 sm:mx-auto">
-          <div className="flex items-center gap-x-16 sm:justify-between sm:px-6">
+        <section className="mt-12 sm:w-[1280px] w-[350px] px-2 sm:mx-auto">
+          <div className="flex items-center gap-x-16 justify-between sm:px-6">
             <p className="font-semibold sm:text-[44px]">Categories</p>
             <p className="border bg-[#E7FAFE] rounded-[10px] font-semibold px-2 py-1">View All Categories</p>
           </div>
-          <div className="mt-5 sm:px-10 gap-y-4 gap-x-10 sm:gap-x-0 flex flex-wrap sm:flex-nowrap sm:justify-between">
+          <div className="mt-5 sm:px-10 gap-y-4 gap-x-10 sm:gap-x-0 flex flex-wrap sm:flex-nowrap justify-between">
             <div className="flex flex-col gap-y-3 bg-pink-300 rounded-[10px]">
               <Image className="sm:w-[100px] w-[80px]" src={breakfast} />
               <p className="font-semibold sm:text-[16px] text-[12px] text-center">breakfast</p>
@@ -133,19 +133,19 @@ const Home = () => {
               <Image src={lunch} className="sm:w-[100px] w-[80px]" />
               <p className="font-semibold text-[16px] px-4">lunch</p>
             </div>
-            <div className="flex flex-col gap-y-3 bg-red-300 rounded-[10px] w-[100px]">
+            <div className="flex flex-col gap-y-3 bg-red-300 rounded-[10px] w-[80px] sm:w-[100px]">
               <Image src={chocolate} className="sm:w-[100px] w-[70px]" />
-              <p className="font-semibold text-[16px] px-4">chocolate</p>
+              <p className="font-semibold text-[16px] px-1 sm:px-2 py-2">chocolate</p>
             </div>
           </div>
         </section>
 {/* second section */}
-        <section className="px-3 sm:w-[1280px] my-12 sm:mx-auto">
+        <section className="px-3 sm:w-[1280px] w-[350px] my-12 sm:mx-auto">
           <p className="sm:text-[44px] text-[22px] font-semibold text-center">Simple and tasty recipes</p>
           <h3 className="text-center py-2 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut <br /> 
             labore et dolore magna aliqut enim ad minim 
           </h3>
-          <div className="grid sm:grid-cols-3 gap-x-36  gap-y-6 px-4 pt-10">
+          <div className="grid sm:grid-cols-3 gap-x-36  gap-y-6 px-10 sm:px-0 pt-10">
             <div className="w-[250px] rounded-[10px] px-2 relative recipebg">
               <Image className="mx-auto my-2 rounded-[10px]" src={hamburger} alt="hamburger"/>
               <Image className="absolute top-5 right-7 rounded-[50%] w-[26px] pt-1 " src={heart} alt="heart shape" />
@@ -285,10 +285,10 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="sm:px-3 sm:w-[1280px] my-16 mx-auto flex sm:flex-row flex-col items-center justify-between">
-          <div>
-            <p className="sm:text-[44px] font-semibold ">Everyone can be a <br /> chef in their own kitchen</p>
-            <p className="w-[508px] py-3 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+        <section className="sm:px-3 sm:w-[1280px]  my-16 mx-auto flex sm:flex-row flex-col gap-y-4 items-center justify-between">
+          <div className='w-[100%] pb-2 px-3 sm:px-0'>
+            <p className="sm:text-[44px] text-[20px] sm:w-[60%] font-semibold">Everyone can be a chef in their own kitchen</p>
+            <p className="sm:w-[508px] py-3 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
             <button className="mt-8 px-8 rounded-[10px] py-3  bg-black text-white text-[12px]">Learn More</button>
           </div>
           <div className="relative ">
@@ -303,7 +303,7 @@ const Home = () => {
         <section className="px-3 sm:w-[1280px] my-16 mx-auto pb-10 recipebg">
           <p className="text-[44px] font-semibold text-center">Check out @foodieland on Instagram</p>
           <p className="text-center py-2 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <br /> magna aliqut enim ad minim </p>
-          <div className="flex sm:flex-row flex-col gap-y-3 justify-between  mt-8">
+          <div className="flex sm:flex-row flex-col gap-y-3 justify-between sm:px-0 px-10  mt-8">
             <Image src={post} />
             <Image src={post2} />
             <Image src={post3} />
@@ -313,11 +313,11 @@ const Home = () => {
         </section>
 
         <section className="px-3 sm:w-[1280px] my-16 mx-auto pb-10" >
-          <div className="flex flex-col sm:flex-row items-center justify-between">
+          <div className="flex flex-col sm:flex-row items-center gap-y-4 justify-between">
             <p className="text-[40px] font-semibold">Try this delicious recipe make your day</p>
             <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
           </div>
-          <div className="grid sm:grid-cols-4 my-5 gap-y-5">
+          <div className="grid sm:grid-cols-4 my-5 gap-y-5 ">
           <div className="w-[250px] rounded-[10px] px-2 relative">
               <Image className="mx-auto my-2 rounded-[10px]" src={img} alt="hamburger"/>
               <Image className="absolute top-5 right-7 bg-white rounded-[50%] w-[26px] pt-1 " src={heart} alt="heart shape" />
@@ -333,7 +333,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[250px] rounded-[10px] px-2 relative">
+            <div className="w-[250px]  rounded-[10px] px-2 relative">
               <Image className="mx-auto my-2 rounded-[10px]" src={img2} alt="hamburger"/>
               <Image className="absolute top-5 right-7 border bg-white rounded-[50%] " src={whiteHeart} alt="heart shape" />
               <p className="font-semibold text-[15px] text-left  py-4">Fresh Lime Roasted Salmon with Ginger Sauce</p>
@@ -441,20 +441,20 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="px-3 sm:w-[1280px] mx-auto py-12 pb-10 rounded-[40px] bg-[#E7F9FD] relative">
-          <div className="flex flex-col  w-[600px] mx-auto">
+        <section className="px-3 sm:w-[1280px] mx-auto sm:py-12 py-6 rounded-[40px] border bg-[#E7F9FD] relative">
+          <div className="flex flex-col sm:w-[600px] mx-auto">
             <div>
-              <p className="sm:text-[40px] font-semibold text-center">Deliciousness to your inbox</p>
-              <p className="text-center w-[600px] mx-auto py-2 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+              <p className="sm:text-[40px] text-[20px] font-semibold text-center">Deliciousness to your inbox</p>
+              <p className="text-center sm:w-[600px] mx-auto py-2 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
             </div>
-            <form className="flex gap-x-10 mx-auto bg-white py-2 my-5 rounded-[10px] px-4 items-center">
+            <form className="flex sm:gap-x-10 sm:mx-auto bg-white py-2 my-5 rounded-[10px] px-2 sm:px-4 items-center">
               <input className="border-none bg-none outline-none text-[14px]" type="email"  placeholder="Your email address..."/>
               <button type='submit' className="items-center px-8 rounded-[10px] py-3  bg-black text-white text-[12px]" >subscribe</button>
             </form>
           </div>
-          <Image className="absolute w-[250px] left-0 bottom-2" src={img9} />
-          <Image className="absolute top-[130px] right-[320px] " src={img10} />
-          <Image className="absolute bottom-0 w-[200px] right-0" src={img11} />
+          <Image className="absolute sm:w-[250px] w-[100px] left-0 bottom-2" src={img9} />
+          <Image className="absolute sm:top-[130px] top-[100px] sm:right-[320px] right-0 w-[100px] " src={img10} />
+          <Image className="absolute bottom-0 sm:w-[200px] w-[80px] right-0" src={img11} />
         </section>
 
      </div>
