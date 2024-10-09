@@ -8,14 +8,14 @@ import img4 from "@/assets/image 26 (13).png";
 import img5 from "@/assets/image 26 (14).png";
 import img9 from "@/assets/image 26 (8).png";
 import img10 from "@/assets/rucola-png.png";
-import img11 from "@/assets/photo-plate.png";
+import img11 from "@/assets/photoPlate.png";
 import avatar from "@/assets/Ellipse 2.png";
 import creamCheese from "@/assets/creamCheese.png";
-import baconPasta from "@/assets/baconPasta.png";
+import baconPasta from "@/assets/baconpasta.png";
 import rice from "@/assets/rice.png";
 import { Lobster } from "next/font/google";
 import adFoodImage from "@/assets/adFoodImage.png";
-import star from "@/assets/star 1.png";
+import star from "@/assets/Star 1.png";
 import { MdNavigateNext } from "react-icons/md";
 
 const lobster = Lobster({ subsets: ["latin"], weight: "400" });

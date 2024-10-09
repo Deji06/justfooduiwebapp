@@ -3,7 +3,7 @@ import Image from "next/image";
 import chef from "@/assets/contactpageChef.png";
 import img9 from "@/assets/image 26 (8).png";
 import img10 from "@/assets/rucola-png.png";
-import img11 from "@/assets/photo-plate.png";
+import img11 from "@/assets/photoPlate.png";
 
 const Contact = () => {
   return (

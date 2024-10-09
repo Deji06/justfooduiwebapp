@@ -5,15 +5,15 @@ import avatar from "@/assets/avatar.png";
 import grenade from "@/assets/grenade.png";
 import forkKnife from "@/assets/ForkKnife.png";
 import recipeImage from "@/assets/recipeImage.png";
-import baconPasta from "@/assets/baconPasta.png";
+import baconPasta from "@/assets/baconpasta.png";
 import creamCheese from "@/assets/creamCheese.png";
 import rice from "@/assets/rice.png";
 import adFoodImage from "@/assets/adFoodImage.png";
-import star from "@/assets/star 1.png";
+import star from "@/assets/Star 1.png";
 import womanChef from "@/assets/womanChef.png";
 import img9 from "@/assets/image 26 (8).png"
 import img10 from "@/assets/rucola-png.png"
-import img11 from "@/assets/photo-plate.png"
+import img11 from "@/assets/photoPlate.png"
 import { Lobster } from "next/font/google";
 import img from "@/assets/image 26.png"
 import img2 from "@/assets/image 26 (1).png"
