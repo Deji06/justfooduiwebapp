@@ -8,7 +8,7 @@ import img4 from "@/assets/image 26 (13).png";
 import img5 from "@/assets/image 26 (14).png";
 import img9 from "@/assets/image 26 (8).png";
 import img10 from "@/assets/rucola-png.png";
-import img11 from "@/assets/photoPlate.png";
+import img11 from "@/assets/plate.png";
 import avatar from "@/assets/Ellipse 2.png";
 import creamCheese from "@/assets/creamCheese.png";
 import baconPasta from "@/assets/baconpasta.png";

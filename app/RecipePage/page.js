@@ -13,7 +13,7 @@ import star from "@/assets/Star 1.png";
 import womanChef from "@/assets/womanChef.png";
 import img9 from "@/assets/image 26 (8).png"
 import img10 from "@/assets/rucola-png.png"
-import img11 from "@/assets/photoPlate.png"
+import img11 from "@/assets/plate.png"
 import { Lobster } from "next/font/google";
 import img from "@/assets/image 26.png"
 import img2 from "@/assets/image 26 (1).png"

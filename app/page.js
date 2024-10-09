@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import rectangle from "@/assets/rectangle 5.png";
-import rectangle2 from "@/assets/rectangle 6.jpg";
+import rectangle from "@/assets/Rectangle 5.png";
+import rectangle2 from "@/assets/Rectangle 6.jpg";
 import brown from "@/assets/brown.jpg";
 import chickenDish from "@/assets/chickenPlatePic.jpg";
 import avatar from "@/assets/avatar.png";
@@ -42,7 +42,7 @@ import img7 from "@/assets/image 26 (6).png"
 import img8 from "@/assets/image 26 (7).png"
 import img9 from "@/assets/image 26 (8).png"
 import img10 from "@/assets/rucola-png.png"
-import img11 from "@/assets/photoPlate.png"
+import img11 from "@/assets/plate.png"
 import {Lobster } from 'next/font/google'
 import adFoodImage from "@/assets/adFoodImage.png";
 import star from "@/assets/Star 1.png";
