@@ -11,7 +11,7 @@ const links = [
     {href:'/RecipePage' , label:"Recipes"},
     {href:'/BlogPage' , label:"Blog"},
     {href:'/Contact' , label:"Contact"},
-    {href:'/HomePage' , label:"Home"},
+    {href:'/' , label:"Home"},
     {href:'/About' , label:"About us."},
 ]
 
@@ -20,7 +20,7 @@ const Footer = () => {
     <div className="pb-10">
         <div className='flex sm:flex-row flex-col  gap-y-4 justify-between sm:px-10 px-3 py-3'>
             <div className='flex sm:flex-col gap-y-2 gap-x-2'>
-             <Link href={'/HomePage'} className={`${lobster.className} font-bold text-[24px]`}>Foodieland<span className='text-red-800'>.</span></Link>
+             <Link href={'/'} className={`${lobster.className} font-bold text-[24px]`}>Foodieland<span className='text-red-800'>.</span></Link>
              <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
             </div>
             <div className='flex font-medium gap-x-5'>
