@@ -7,7 +7,7 @@ import img11 from "@/assets/photo-plate.png";
 
 const Contact = () => {
   return (
-    <section className="px-3 sm:w-[1280px] mx-auto py-12 pb-10">
+    <section className="px-3 sm:w-[1280px] mx-auto  pb-10">
       <p className="text-center font-bold text-[44px]">contact us</p>
       <div className="flex flex-col sm:flex-row gap-x-16 mt-  sm:mt-10">
         <Image src={chef} className="recipebg rounded-[10px] sm:ml-5" />

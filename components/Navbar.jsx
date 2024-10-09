@@ -12,7 +12,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const lobster = Lobster({ subsets: ["latin"], weight: "400" });
 const links = [
-  { href: "/HomePage", label: "Home" },
+  { href: "/", label: "Home" },
   { href: "/About", label: "About us" },
   { href: "/Contact", label: "Contact" },
   { href: "/RecipePage", label: "Recipes" },
@@ -32,9 +32,9 @@ const Navbar = () => {
 
   return (
     <>
-        <nav className="flex justify-between items-center px-2 sm:px-10 py-3">
+        <nav className="flex justify-between  items-center px-2 sm:px-10 py-3">
         <Link
-            href={"/HomePage"}
+            href={"/"}
             className={`${lobster.className} font-bold text-[24px]`}
         >
             Foodieland<span className="text-red-800">.</span>
@@ -45,7 +45,7 @@ const Navbar = () => {
          {links.map((link) => {
                 return (
                 <div key={link.href}>
-                    <Link href={link.href}>{link.label}</Link>
+                    <Link href={link.href} >{link.label}</Link>
                 </div>
                 );
             })}

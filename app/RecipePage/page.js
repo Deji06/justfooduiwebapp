@@ -34,8 +34,8 @@ const Recipe = () => {
   return (
     <>
       <section className="sm:w-[1280px] my-5 mx-auto pb-10">
-        <div className="flex flex-col sm:flex-row justify-between gap-y-2 border">
-          <header className="flex flex-col gap-y-3 border">
+        <div className="flex flex-col sm:flex-row justify-between gap-y-2">
+          <header className="flex flex-col gap-y-3">
             <h1 className="font-semibold sm:text-[44px] px-2 sm:px-0 text-[25px]">
               Health Japanese Fried Rice
             </h1>
