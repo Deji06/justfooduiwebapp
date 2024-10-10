@@ -51,7 +51,7 @@ const Recipe = () => {
               </div>
               <div className="border hidden sm:block h-[50px]"></div>
               <div className="flex items-center gap-x-1 sm:gap-x-3">
-                <Image src={grenade} />
+                <Image src={grenade} alt='' />
                 <div className="flex flex-col gap-y-1">
                   <p className="uppercase font-bold text-[8px] sm:text-[12px]">prep time</p>
                   <p className="sm:text-[14px] text-[8px] font-medium text-[#8392A7]">
@@ -61,7 +61,7 @@ const Recipe = () => {
               </div>
               <div className="border hidden sm:block h-[50px]"></div>
               <div className="flex items-center gap-x-1 sm:gap-x-3">
-                <Image src={grenade} />
+                <Image src={grenade} alt='' />
                 <div className="flex flex-col gap-y-1">
                   <p className="uppercase  font-bold sm:text-[12px] text-[8px]">cook time</p>
                   <p className="sm:text-[14px] text-[8px] font-medium text-[#8392A7]">
@@ -71,7 +71,7 @@ const Recipe = () => {
               </div>
               <div className="border hidden sm:block h-[50px]"></div>
               <div className="flex items-center gap-x-3">
-                <Image src={forkKnife} />
+                <Image src={forkKnife} alt='' />
                 <p className="text-[#8392A7]">chicken</p>
               </div>
             </div>
@@ -88,7 +88,7 @@ const Recipe = () => {
 
         <div className="flex flex-col sm:flex-row gap-y-2 justify-between mt-5">
           <div>
-            <Image src={recipeImage} className="sm:w-[700px] sm:px-0 px-2" />
+            <Image src={recipeImage} className="sm:w-[700px] sm:px-0 px-2" alt='' />
           </div>
           <div className="bg-[#E7FAFE] sm:w-[300px] mx-2 sm:mx-0 rounded-[10px] px-3 py-3">
             <h1 className="font-semibold py-2">Nutrition Information</h1>
@@ -188,7 +188,7 @@ const Recipe = () => {
           <div className="flex flex-col gap-y-2 my-4 sm:my-0">
             <p className="font-semibold text-[30px]">Other Recipe</p>
             <div className="flex items-center gap-x-3 mt-5">
-              <Image src={creamCheese} className="rounded-[10px] w-[120px]" />
+              <Image src={creamCheese} className="rounded-[10px] w-[120px]" alt='' />
               <div className="">
                 <p className="font-semibold text-[18px]">
                   Chicken Meatball <br /> with Creamy Chees...
@@ -197,7 +197,7 @@ const Recipe = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-3 mt-5">
-              <Image src={baconPasta} className="rounded-[10px] w-[120px]" />
+              <Image src={baconPasta} className="rounded-[10px] w-[120px]"  alt=''/>
               <div className="">
                 <p className="font-semibold text-[18px]">
                   The Creamiest <br /> Creamy Chicken an...
@@ -206,7 +206,7 @@ const Recipe = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-3 mt-5">
-              <Image src={rice} className="rounded-[10px] w-[120px]" />
+              <Image src={rice} className="rounded-[10px] w-[120px]"  alt=''/>
               <div className="">
                 <p className="font-semibold text-[18px]">
                   The Best Easy One <br /> Pot Chicken and Rice
@@ -255,8 +255,8 @@ const Recipe = () => {
             >
               Don’t forget to eat <br /> healthy food
             </p>
-            <Image src={adFoodImage} className="absolute z-10 top-16 left-" />
-            <Image
+            <Image src={adFoodImage} className="absolute z-10 top-16 left-"  alt=''/>
+            <Image alt=''
               src={star}
               className=" star absolute top-[16px] left- z-5 w-[350px]"
             />
@@ -283,7 +283,7 @@ const Recipe = () => {
           tempora incidunt ut labore et dolore magnam aliquam quaerat
           voluptatem.
         </p>
-        <Image src={womanChef} className="sm:w-[650px] w-[300px] ml-5" />
+        <Image src={womanChef} className="sm:w-[650px] w-[300px] ml-5" alt='' />
         <p className="mx-6 my-2 text-[#8392A7] sm:w-[700px]">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia c
           onsequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. N
           eque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
@@ -333,9 +333,9 @@ const Recipe = () => {
               <button type='submit' className="items-center px-8 rounded-[10px] py-3  bg-black text-white text-[12px]" >subscribe</button>
             </form>
           </div>
-          <Image className="absolute sm:w-[250px] w-[100px] left-0 bottom-2" src={img9} />
-          <Image className="absolute sm:top-[130px] sm:right-[320px] top-[100px] right-0 w-[100px] " src={img10} />
-          <Image className="absolute bottom-0 sm:w-[200px]  right-0 w-[100px]" src={img11} />
+          <Image className="absolute sm:w-[250px] w-[100px] left-0 bottom-2" src={img9} alt='' />
+          <Image className="absolute sm:top-[130px] sm:right-[320px] top-[100px] right-0 w-[100px] " src={img10}  alt=''/>
+          <Image className="absolute bottom-0 sm:w-[200px]  right-0 w-[100px]" src={img11} alt='' />
         </section>
 
         <section className="sm:w-[1280px] my-10 mx-auto ">

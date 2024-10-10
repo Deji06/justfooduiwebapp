@@ -10,7 +10,7 @@ const Contact = () => {
     <section className="px-3 sm:w-[1280px] mx-auto  pb-10">
       <p className="text-center font-bold text-[44px]">contact us</p>
       <div className="flex flex-col sm:flex-row gap-x-16 mt-  sm:mt-10">
-        <Image src={chef} className="recipebg rounded-[10px] sm:ml-5" />
+        <Image src={chef} className="recipebg rounded-[10px] sm:ml-5" alt='' />
         <div className="flex flex-col gap-y-5 sm:w-[80%]">
           <form className=" grid sm:grid-cols-2 py-2 gap-y-4 sm:h-[250px]">
             <div className="flex flex-col gap-y-2">
@@ -109,9 +109,9 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <Image className="absolute sm:w-[250px] w-[100px] left-0 bottom-2" src={img9} />
-        <Image className="absolute sm:top-[130px] top-[100px] right-0 sm:right-[320px] w-[100px] " src={img10} />
-        <Image className="absolute bottom-0 sm:w-[200px] w-[100px] right-0" src={img11} />
+        <Image className="absolute sm:w-[250px] w-[100px] left-0 bottom-2" src={img9}  alt=''/>
+        <Image className="absolute sm:top-[130px] top-[100px] right-0 sm:right-[320px] w-[100px] " src={img10} alt='' />
+        <Image className="absolute bottom-0 sm:w-[200px] w-[100px] right-0" src={img11} alt='' />
       </div>
     </section>
   );

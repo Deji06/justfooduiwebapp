@@ -61,7 +61,7 @@ const page = () => {
             {/* left */}
             <div className="py-10 sm:px-6 sm:h-[510px]  bg-[#E7FAFE] px-3 ">
               <div className="flex gap-x-2 items-center w-[150px] bg-white rounded-[8px] py-2 px-4">
-                <Image className="w-[15px]" src={brown} />
+                <Image className="w-[15px]" alt='' src={brown} />
                 <p className="font-semibold text-[14px]">Hot Recipes</p>
               </div>
               <p className="font-semibold text-[18px] sm:text-[64px]">
@@ -94,14 +94,14 @@ const page = () => {
                 </div>
                 <button className="flex items-center py-3  sm:py-0 px-3 w-[200px] border gap-x-3 rounded-[10px] bg-black">
                   <p className="text-[#fff]">View Recipes</p>
-                  <Image src={videoPlayerIcon} />
+                  <Image src={videoPlayerIcon}  alt=''/>
                 </button>
               </div>
             </div>
 
             {/* right */}
             <div className="">
-              <Image className="h-[510px] " src={chickenDish} />
+              <Image className="h-[510px]" alt='' src={chickenDish} />
             </div>
           </div>
           <Image className="h-[510px] hidden sm:block" src={rectangle2} alt="" />
@@ -114,27 +114,27 @@ const page = () => {
           </div>
           <div className="mt-5 sm:px-10 gap-y-4 gap-x-10 sm:gap-x-0 flex flex-wrap sm:flex-nowrap justify-between">
             <div className="flex flex-col gap-y-3 bg-pink-300 rounded-[10px]">
-              <Image className="sm:w-[100px] w-[80px]" src={breakfast} />
+              <Image className="sm:w-[100px] w-[80px]" alt='' src={breakfast} />
               <p className="font-semibold sm:text-[16px] text-[12px] text-center">breakfast</p>
             </div>
             <div className="flex flex-col gap-y-3 vegan rounded-[10px]">
-              <Image src={vegan} className="sm:w-[100px] w-[80px]" />
+              <Image src={vegan} alt='' className="sm:w-[100px]  w-[80px]" />
               <p className="font-semibold text-[16px] px-4">vegan</p>
             </div>
             <div className="flex flex-col gap-y-3 meat rounded-[10px]">
-              <Image className="sm:w-[100px] w-[80px]" src={meat} />
+              <Image className="sm:w-[100px] w-[80px]" src={meat} alt='' />
               <p className="font-semibold text-[16px] px-4">meat</p>
             </div>
             <div className="flex flex-col gap-y-3 bg-red-300 rounded-[10px]">
-              <Image src={dessert} className="sm:w-[100px] w-[80px]" />
+              <Image src={dessert} className="sm:w-[100px] w-[80px] " alt='' />
               <p className="font-semibold text-[16px] px-4">dessert</p>
             </div>
             <div className="flex flex-col gap-y-3 bg-pink-300 rounded-[10px]">
-              <Image src={lunch} className="sm:w-[100px] w-[80px]" />
+              <Image src={lunch} className="sm:w-[100px] w-[80px]" alt='' />
               <p className="font-semibold text-[16px] px-4">lunch</p>
             </div>
             <div className="flex flex-col gap-y-3 bg-red-300 rounded-[10px] w-[80px] sm:w-[100px]">
-              <Image src={chocolate} className="sm:w-[100px] w-[70px]" />
+              <Image src={chocolate} className="sm:w-[100px] w-[70px]"  alt=''/>
               <p className="font-semibold text-[16px] px-1 sm:px-2 py-2">chocolate</p>
             </div>
           </div>
@@ -228,8 +228,8 @@ const page = () => {
               >
                 Don’t forget to eat <br /> healthy food
               </p>
-              <Image src={adFoodImage} className="absolute z-10 top-18 left-" />
-              <Image
+              <Image src={adFoodImage} className="absolute z-10 top-18 left-" alt=''/>
+              <Image alt=''
                 src={star}
                 className=" star absolute top-[16px] left- z-5 w-[450px]"
               />
@@ -293,7 +293,7 @@ const page = () => {
           </div>
           <div className="relative ">
             <Image className="w-[500px]" src={chef} alt="happy chef" />
-            <Image className="absolute top-16 left-16 w-[70px]" src={meat} />
+            <Image className="absolute top-16 left-16 w-[70px]" src={meat} alt='' />
             <Image className="absolute top-28 w-[60px] right-0" src={vegan} alt="lettuce" />
             <Image className="absolute top-16 w-[50px] right-28 " src={onion} alt="onion" />
             <Image className="absolute bottom-20 w-[50px] left-4" src={ginger} alt="ginger" />
@@ -304,12 +304,12 @@ const page = () => {
           <p className="text-[44px] font-semibold text-center">Check out @foodieland on Instagram</p>
           <p className="text-center py-2 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <br /> magna aliqut enim ad minim </p>
           <div className="flex sm:flex-row flex-col gap-y-3 justify-between sm:px-0 px-10  mt-8">
-            <Image src={post} />
-            <Image src={post2} />
-            <Image src={post3} />
-            <Image src={post4} />
+            <Image src={post} alt='' />
+            <Image src={post2} alt='' />
+            <Image src={post3} alt='' />
+            <Image src={post4} alt='' />
           </div>
-          <button className=" flex mx-auto items-center gap-x-2 mt-12 px-8 rounded-[10px] py-3  bg-black text-white text-[12px]">Visit Our Instagram <Image src={instagram} /> </button>
+          <button className=" flex mx-auto items-center gap-x-2 mt-12 px-8 rounded-[10px] py-3  bg-black text-white text-[12px]">Visit Our Instagram <Image src={instagram}  alt='instagram'/> </button>
         </section>
 
         <section className="px-3 sm:w-[1280px] my-16 mx-auto pb-10" >
@@ -452,9 +452,9 @@ const page = () => {
               <button type='submit' className="items-center px-8 rounded-[10px] py-3  bg-black text-white text-[12px]" >subscribe</button>
             </form>
           </div>
-          <Image className="absolute sm:w-[250px] w-[100px] left-0 bottom-2" src={img9} />
-          <Image className="absolute sm:top-[130px] top-[100px] sm:right-[320px] right-0 w-[100px] " src={img10} />
-          <Image className="absolute bottom-0 sm:w-[200px] w-[80px] right-0" src={img11} />
+          <Image className="absolute sm:w-[250px] w-[100px] left-0 bottom-2" src={img9} alt='' />
+          <Image className="absolute sm:top-[130px] top-[100px] sm:right-[320px] right-0 w-[100px] " src={img10} alt='' />
+          <Image className="absolute bottom-0 sm:w-[200px] w-[80px] right-0" src={img11} alt='' />
         </section>
 
      </div>

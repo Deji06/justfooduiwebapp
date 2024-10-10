@@ -61,7 +61,7 @@ const Blog = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
               <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
-                <Image src={avatar} />
+                <Image src={avatar} alt='' />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
                 <p>12 November 2021</p>
@@ -79,7 +79,7 @@ const Blog = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
               <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
-                <Image src={avatar} />
+                <Image src={avatar} alt='' />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
                 <p>12 November 2021</p>
@@ -97,7 +97,7 @@ const Blog = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
               <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
-                <Image src={avatar} />
+                <Image src={avatar} alt='' />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
                 <p>12 November 2021</p>
@@ -115,7 +115,7 @@ const Blog = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
               <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
-                <Image src={avatar} />
+                <Image src={avatar} alt='' />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
                 <p>12 November 2021</p>
@@ -133,7 +133,7 @@ const Blog = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
               <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
-                <Image src={avatar} />
+                <Image src={avatar} alt='' />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
                 <p>12 November 2021</p>
@@ -151,7 +151,7 @@ const Blog = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim{" "}
               </p>
               <div className="flex sm:gap-x-5 gap-x-2 items-center py-4">
-                <Image src={avatar} />
+                <Image src={avatar} alt='' />
                 <p className="font-bold">Wade Warren</p>
                 <div className="border  h-[25px]"></div>
                 <p>12 November 2021</p>
@@ -164,7 +164,7 @@ const Blog = () => {
           <div className="flex flex-col gap-y-2">
             <p className="font-semibold text-[30px]">Tasty Recipes</p>
             <div className="flex items-center gap-x-3 mt-5">
-              <Image src={creamCheese} className="rounded-[10px] w-[120px]" />
+              <Image src={creamCheese} className="rounded-[10px] w-[120px]" alt='' />
               <div className="">
                 <p className="font-semibold text-[18px]">
                   Chicken Meatball <br /> with Creamy Chees...
@@ -173,7 +173,7 @@ const Blog = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-3 mt-5">
-              <Image src={baconPasta} className="rounded-[10px] w-[120px]" />
+              <Image src={baconPasta} className="rounded-[10px] w-[120px]"  alt=''/>
               <div className="">
                 <p className="font-semibold text-[18px]">
                   The Creamiest <br /> Creamy Chicken an...
@@ -182,7 +182,7 @@ const Blog = () => {
               </div>
             </div>
             <div className="flex items-center gap-x-3 mt-5">
-              <Image src={rice} className="rounded-[10px] w-[120px]" />
+              <Image src={rice} className="rounded-[10px] w-[120px]" alt='' />
               <div className="">
                 <p className="font-semibold text-[18px]">
                   The Best Easy One <br /> Pot Chicken and Rice
@@ -197,8 +197,8 @@ const Blog = () => {
             >
               Don’t forget to eat <br /> healthy food
             </p>
-            <Image src={adFoodImage} className="absolute z-10 top-16 left-" />
-            <Image
+            <Image src={adFoodImage} className="absolute z-10 top-16 left-" alt='' />
+            <Image alt=''
               src={star}
               className=" star absolute top-[16px] left- z-5 w-[350px]"
             />
@@ -259,9 +259,9 @@ const Blog = () => {
             </button>
           </form>
         </div>
-        <Image className="absolute sm:w-[250px] w-[100px] left-0 bottom-2" src={img9} />
-        <Image className="absolute sm:top-[130px] top-[100px] sm:right-[320px] right-0 w-[100px]  " src={img10} />
-        <Image className="absolute bottom-0 sm:w-[200px] right-0 w-[80px]" src={img11} />
+        <Image className="absolute sm:w-[250px] w-[100px] left-0 bottom-2" src={img9} alt='' />
+        <Image className="absolute sm:top-[130px] top-[100px] sm:right-[320px] right-0 w-[100px]  " src={img10}  alt=''/>
+        <Image className="absolute bottom-0 sm:w-[200px] right-0 w-[80px]" src={img11} alt='' />
       </div>
     </section>
   );
