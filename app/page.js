@@ -27,10 +27,10 @@ import rice from "@/assets/rice.png"
 import baconPasta from "@/assets/baconpasta.png"
 import whiteHeart from "@/assets/whiteHeart.png"
 import chef from "@/assets/chef.png"
-import post from "@/assets/post.png"
+// import post from "@/assets/post.png"
 import post2 from "@/assets/post2.png"
-import post3 from "@/assets/post3.png"
-import post4 from "@/assets/post4.png"
+// import post3 from "@/assets/post3.png"
+// import post4 from "@/assets/post4.png"
 import instagram from "@/assets/instagram.jpg"
 import img from "@/assets/image 26.png"
 import img2 from "@/assets/image 26 (1).png"
@@ -304,10 +304,10 @@ const page = () => {
           <p className="text-[44px] font-semibold text-center">Check out @foodieland on Instagram</p>
           <p className="text-center py-2 text-[#8392A7]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <br /> magna aliqut enim ad minim </p>
           <div className="flex sm:flex-row flex-col gap-y-3 justify-between sm:px-0 px-10  mt-8">
-            <Image src={post} alt='' />
             <Image src={post2} alt='' />
-            <Image src={post3} alt='' />
-            <Image src={post4} alt='' />
+            <Image src={post2} alt='' />
+            <Image src={post2} alt='' />
+            <Image src={post2} alt='' />
           </div>
           <button className=" flex mx-auto items-center gap-x-2 mt-12 px-8 rounded-[10px] py-3  bg-black text-white text-[12px]">Visit Our Instagram <Image src={instagram}  alt='instagram'/> </button>
         </section>
